@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Matemática Pré-Universitária</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #dbeafe, #f4f4f4);
+      min-height: 100vh; /* cobre toda a tela */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    h1 {
+      color: #222;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #444;
+      margin-bottom: 25px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin-bottom: 40px;
+    }
+
+    li {
+      margin: 12px 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+      background: #007bff;
+      padding: 10px 25px;
+      border-radius: 5px;
+      display: inline-block;
+      transition: background 0.3s, transform 0.2s;
+      font-size: 16px;
+    }
+
+    a:hover {
+      background: #0056b3;
+      transform: scale(1.05);
+    }
+
+    /* Cores dos símbolos */
+    .symbol {
+      margin-right: 10px;
+      font-weight: bold;
+      font-size: 22px;
+    }
+
+    .algebra { color: #e91e63; }       /* Rosa */
+    .geometria { color: #4caf50; }     /* Verde */
+    .trigonometria { color: #ff9800; } /* Laranja */
+    .estatistica { color: #9c27b0; }   /* Roxo */
+    .aritmetica { color: #2196f3; }    /* Azul */
+
+    footer {
+      color: #555;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Matemática Pré-Universitária</h1>
+  <p>Escolha um tema para estudar:</p>
+
+  <ul>
+    <li><a href="algebra/index.html"><span class="symbol algebra">∑</span>Álgebra</a></li>
+    <li><a href="geometria/index.html"><span class="symbol geometria">△</span>Geometria</a></li>
+    <li><a href="trigonometria/index.html"><span class="symbol trigonometria">θ</span>Trigonometria</a></li>
+    <li><a href="estatistica/index.html"><span class="symbol estatistica">σ</span>Estatística e Probabilidade</a></li>
+    <li><a href="aritmetica/index.html"><span class="symbol aritmetica">÷</span>Aritmética</a></li>
+  </ul>
+
+  <footer>
+    Desenvolvido por <strong>Bernard</strong>
+  </footer>
+
+</body>
+</html>
